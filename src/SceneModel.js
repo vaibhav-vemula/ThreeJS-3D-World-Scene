@@ -112,10 +112,11 @@ function Model(props) {
           console.log("Building 1");
         }}
         onPointerEnter={(e) => {
-          document.body.style.cursor = 'pointer'
+          document.body.style.cursor = "pointer";
           setDod(true);
         }}
         onPointerLeave={(e) => {
+          document.body.style.cursor = "grab";
           setDod(false);
         }}
         geometry={nodes.City_building_001.geometry}
@@ -223,10 +224,12 @@ function Model(props) {
       </mesh>
       <mesh
         onPointerEnter={(e) => {
-          document.body.style.cursor = 'pointer'
+          document.body.style.cursor = "pointer";
           setDod(true);
         }}
         onPointerLeave={(e) => {
+          
+          document.body.style.cursor = "grab";
           setDod(false);
         }}
         onClick={(e) => {
@@ -244,10 +247,11 @@ function Model(props) {
           console.log("Building 3");
         }}
         onPointerEnter={(e) => {
-          document.body.style.cursor = 'pointer'
+          document.body.style.cursor = "pointer";
           setDod(true);
         }}
         onPointerLeave={(e) => {
+          document.body.style.cursor = "grab";
           setDod(false);
         }}
         geometry={nodes.City_building_030.geometry}
@@ -258,10 +262,11 @@ function Model(props) {
           console.log("Building 4");
         }}
         onPointerEnter={(e) => {
-          document.body.style.cursor = 'pointer'
+          document.body.style.cursor = "pointer";
           setDod(true);
         }}
         onPointerLeave={(e) => {
+          document.body.style.cursor = "grab";
           setDod(false);
         }}
         geometry={nodes.City_building_031.geometry}
@@ -300,10 +305,11 @@ function Model(props) {
           console.log("Building 3");
         }}
         onPointerEnter={(e) => {
-          document.body.style.cursor = 'pointer'
+          document.body.style.cursor = "pointer";
           setDod(true);
         }}
         onPointerLeave={(e) => {
+          document.body.style.cursor = "grab";
           setDod(false);
         }}
         geometry={nodes.City_building_039.geometry}
@@ -314,10 +320,11 @@ function Model(props) {
           console.log("Building 4");
         }}
         onPointerEnter={(e) => {
-          document.body.style.cursor = 'pointer'
+          document.body.style.cursor = "pointer";
           setDod(true);
         }}
         onPointerLeave={(e) => {
+          document.body.style.cursor = "grab";
           setDod(false);
         }}
         geometry={nodes.City_building_040.geometry}
@@ -328,10 +335,11 @@ function Model(props) {
           console.log("Building 5");
         }}
         onPointerEnter={(e) => {
-          document.body.style.cursor = 'pointer'
+          document.body.style.cursor = "pointer";
           setDod(true);
         }}
         onPointerLeave={(e) => {
+          document.body.style.cursor = "grab";
           setDod(false);
         }}
         geometry={nodes.City_building_041.geometry}

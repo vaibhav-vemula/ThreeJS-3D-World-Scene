@@ -1,6 +1,10 @@
 import SceneModel from "./SceneModel";
+import React, { useEffect } from "react";
 
 export default function App() {
+  useEffect(() => {
+    document.body.style.cursor = "grab";
+  }, []);
   return (
     <div className="App">
       <SceneModel />
@@ -11,7 +15,6 @@ export default function App() {
 // import { Suspense } from 'react'
 // import { Canvas } from '@react-three/fiber'
 // import { Environment } from '@react-three/drei'
-
 
 // export default function App() {
 //   return (
