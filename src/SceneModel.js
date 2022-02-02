@@ -2,13 +2,13 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import {
   OrbitControls,
   useGLTF,
-  Text,
-  Html,
-  Billboard,
+  // Text,
+  // Html,
+  // Billboard,
 } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Suspense, useRef, useState, useEffect } from "react";
-import { FaMapMarkerAlt } from "react-icons/fa";
+// import { FaMapMarkerAlt } from "react-icons/fa";
 // import { random } from "lodash";
 
 const CloudModel = () => {
